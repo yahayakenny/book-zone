@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+.card-content {
+  height: 300px;
+}
+
+.box {
+  margin: 50px 50px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 150px;
+  height: 100%;
+  background-color: green;
+  left: -150px;
+  transition: all 250ms linear;
+}
+
+#sidebar.active {
+  left: 0px;
+}
+
+#sidebar ul li {
+  color: white;
+  list-style: none;
+  padding: 10px 10px;
+  border-bottom: 1px solid white;
+}
+
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 230px;
+  top: 20px;
+}
+
+#sidebar .toggle-btn span {
+  display: block;
+  height: 5px;
+  width: 30px;
+  background-color: #151719;
+  margin-bottom: 6px;
+}
+ 
+footer {
+  padding: 10px;
+}
